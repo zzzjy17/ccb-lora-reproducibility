@@ -1,0 +1,7 @@
+"dataset","condition","macro_f1","delta_vs_full","panel"
+"ChnSentiCorp","Full DCR","0.8811118587311766","0.0","ablation"
+"ChnSentiCorp","No pseudo-labels","0.8770726309829329","-0.004039227748243723","ablation"
+"ChnSentiCorp","No calibration","0.8784371602399765","-0.002674698491200056","ablation"
+"TNEWS","Full DCR","0.44034522638308776","0.0","ablation"
+"TNEWS","No pseudo-labels","0.43001818131452935","-0.010327045068558416","ablation"
+"TNEWS","No calibration","0.29181187451759405","-0.1485333518654937","ablation"

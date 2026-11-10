@@ -1,0 +1,45 @@
+{
+  "dataset": "ChnSentiCorp",
+  "label_fraction": 0.1,
+  "seed": 2026,
+  "method": "dcr_ccb_lora",
+  "model_name": "google-bert/bert-base-chinese",
+  "num_labels": 2,
+  "n_train": 9600,
+  "n_labeled": 960,
+  "n_unlabeled": 8640,
+  "n_eval": 1200,
+  "epochs": 1,
+  "protocol_version": "v2_independent_calibration_2026-10-27",
+  "code_sha256": "0a2a486441163489cca25776ebbb4ddc611096dd735fb2e85351da595cbaa35b",
+  "calibration_source": "dataset_validation_split",
+  "calibration_size": 1200,
+  "evaluation_size": 1200,
+  "temperature": 0.7373474836349487,
+  "dcr_rank": 4,
+  "dcr_gate": "uncertainty",
+  "pseudo_label_count": 432,
+  "pseudo_label_budget": 432,
+  "pseudo_budget_ratio": 0.05,
+  "semantic_similarity_threshold": null,
+  "pseudo_class_counts": {
+    "0": 216,
+    "1": 216
+  },
+  "thresholds": {
+    "0": 0.9438752889633178,
+    "1": 0.932789421081543
+  },
+  "train_seconds": 170.0071144104004,
+  "device": "cuda",
+  "pilot_caps": {
+    "max_train_samples": null,
+    "max_unlabeled": null
+  },
+  "accuracy": 0.88,
+  "macro_f1": 0.8799596531056272,
+  "weighted_f1": 0.8799303099097197,
+  "ece": 0.06153236865997314,
+  "brier_score": 0.19118023955013924,
+  "nll": 0.37466880679130554
+}

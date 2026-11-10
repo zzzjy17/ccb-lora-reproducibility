@@ -1,0 +1,17 @@
+"dataset","configuration","group","macro_f1","panel"
+"ChnSentiCorp","rank 4
+uncertainty","rank","0.8811118587311766","sensitivity"
+"ChnSentiCorp","rank 2
+uncertainty","rank","0.8844335548671584","sensitivity"
+"ChnSentiCorp","rank 8
+uncertainty","rank","0.8847064497031413","sensitivity"
+"ChnSentiCorp","confidence","gate","0.8844142647335741","sensitivity"
+"ChnSentiCorp","constant","gate","0.8810809642351511","sensitivity"
+"TNEWS","rank 4
+uncertainty","rank","0.44034522638308776","sensitivity"
+"TNEWS","rank 2
+uncertainty","rank","0.43709403577158734","sensitivity"
+"TNEWS","rank 8
+uncertainty","rank","0.45165612334639665","sensitivity"
+"TNEWS","confidence","gate","0.442084698417267","sensitivity"
+"TNEWS","constant","gate","0.4456667712805622","sensitivity"

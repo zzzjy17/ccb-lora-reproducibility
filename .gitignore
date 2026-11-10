@@ -1,0 +1,18 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+
+# Local source drops and model checkpoints
+data/source/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Large per-run artifacts; keep aggregate CSV/JSON summaries under results/
+results/runs/**/*.npz
+results/runs/**/*.jsonl
